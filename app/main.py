@@ -10,7 +10,7 @@ db.bind(provider='postgres', user='yourusername',
         password='change_to_super_secret_password', 
         host='postgres', database='yourdbname')
 #^^^^^ Please make sure to use env variables as this information should be private ^^^^^^###
-db.generate_mapping(create_tables=True)
+db.generate_mapping()
 
 
 # Create index route
